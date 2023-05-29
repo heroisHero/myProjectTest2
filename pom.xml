@@ -150,4 +150,15 @@
             <version>5.0.7</version>
         </dependency>
     </dependencies>
+    <dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>jdk.tools</groupId>
+      <artifactId>jdk.compiler</artifactId>
+      <version>16</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</dependencyManagement>
+
 </project>
